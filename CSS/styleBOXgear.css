@@ -1,0 +1,271 @@
+body{
+    background-image: url(../image/BODY/background-body.png);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+.header--container{
+    display: block;
+    padding: 0 5px;
+    position: relative;
+    height: 130px;
+}
+.div--container{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin:0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(238, 234, 234);
+    height: auto; 
+    display: block;
+    
+}
+.header--menu--login{
+    float: right;
+    width: 100%;
+    height: auto;
+}
+ul{
+    list-style: none;
+
+}
+.menu--login__li{
+    float: right;
+    padding: 0 10px;
+    
+}
+a{
+    text-decoration: none;
+    color:#444;
+}
+.menu--bottom__li--left{
+    float: left;
+    padding: 20px;
+    position: relative;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    
+}
+.menu--bottom__li--right{
+    float: right;
+   text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 35px;
+    background-color:#444444;
+    margin: 5px 4px;
+    border-radius: 6px;
+}
+.header--menu--bottom {
+    display:block;
+    width: 100%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.header--col-1{
+    position: relative;
+    display: block;
+    float: left;
+    padding: 0 10px;
+    width: 15%;
+    height: auto;
+}
+.header--col-2{
+    float: right;
+    position: relative;
+    display: block;
+     padding: 0 10px;
+     width: 80%;
+    
+}
+.menu--bottom--drop{
+    display:none;
+    position: absolute;
+    min-width: 200px;
+    z-index: 1;
+    background-color: #f5f5f5;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    top: 45px;
+    text-align: left;
+    
+}
+.menu--bottom--drop a{
+    color: black;
+    display: block;
+   font-size: 20px;
+   font-weight: 300;
+    padding-left: 5px;
+   
+    
+}
+.menu--bottom__li--left--drop:hover .menu--bottom--drop{
+    display: block;
+   
+}
+.content--top{
+    
+   
+    padding: 10px;
+   display: flex;
+    padding: 15px  10px;
+    justify-content: space-around;
+  
+}
+.content--top--col{
+    width: 30%;
+    display: block;
+    padding: 0 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.center--head{
+   
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid rgb(221, 221, 221, 1);
+    border-radius: 20px;
+    font-weight: 500;
+    color:rgb(114, 91, 91) ;
+ 
+}
+.center--hr{
+ 
+  height: 1px;
+  background-color: rgb(221, 221, 221, 1);
+  width: 100%;
+  position: relative;
+  top:20px
+  
+}
+.content--center--head{
+    display: flex;
+    padding: 0 30px;
+}
+.content--center--body{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 30px;
+}
+.center--body--col--1{
+    width: 22%;
+    
+    
+}
+.datHang--button{
+    float: right;
+  
+    
+}
+.product--col--img{
+    width: 100%;
+    height: 230px;
+    position: relative;
+}
+.product--col--datHang{
+   display: block;
+   position: absolute;
+   padding: 10px;
+    bottom: 5px;
+   z-index: 1;
+   width: auto;
+   background-color: rgb(121, 117, 101,0.8);
+   padding: 5px 12px;
+   font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and(max-width: 900px){
+        .header--container{
+            min-width: 900px;
+        }
+    }
+/* -- Đăng nhập-- */
+
+.content--login{
+    padding-top: 30px;
+    min-height: 370px;
+    background-color: rgb(245, 245, 245);
+    margin: 0px auto;
+}
+.customer-login{
+    margin: auto;
+    width: 40%;
+    text-align: center;
+
+}
+.login-title{
+    text-align: center;
+    font-size: x-large;
+    
+}
+.input-group{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;   
+    
+}
+.input-group-addon{
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(228, 226, 226);
+    border: 2px solid rgb(214, 214, 214) ;
+    height: 32px;
+    line-height: 32px;
+    width: 40px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px ;
+}
+.input-group-addon svg{
+    vertical-align: middle;
+}
+.input-group input{
+    padding: 6px 12px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px ;
+    border: 2px solid rgb(214, 214, 214) ;
+}
+/* .input-group input:hover{
+    box-shadow: 0px 10px 13px -7px #000000, 0px 0px 12px 3px rgba(0,0,0,0.25);
+    box-shadow: 1px -2px 5px 2px rgba(0,0,0,0.19);
+} */
+.input-group input:focus{
+    box-shadow: 1px -2px 5px 2px rgba(195, 209, 255, 0.973);
+}
+.input-button input{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    color: white;
+    border-color: transparent;
+    background-color: rgb(248, 66, 66);
+    font-size: 15px;
+}
+.input-button input:hover{
+    background-color: rgb(236, 16, 16);
+    cursor: pointer;
+}
+.input-req-pass a:hover{
+    color: rgb(236, 16, 16);
+}
+
+/* --Đăng ký-- */
+
+
